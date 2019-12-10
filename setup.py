@@ -30,11 +30,11 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='dj-paginator',
     version=version,
-    description="""A super-simple set of pagination tools for Django 1.8+""",
+    description="""A super-simple set of pagination tools for Django 2.0+""",
     long_description=readme + '\n\n' + history,
-    author='Daniel Roy Greenfeld',
-    author_email='pydanny@gmail.com',
-    url='https://github.com/pydanny/dj-paginator',
+    author='Ren PJ',
+    author_email='openrpj@gmail.com',
+    url='https://github.com/renpj/dj-paginator',
     packages=[
         'paginator',
     ],
@@ -53,6 +53,6 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.7',
     ],
 )
